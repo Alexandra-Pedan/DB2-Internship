@@ -1,0 +1,177 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+  background: $modal-bgd;
+  position: relative;
+}
+
+.modal-recovery {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+  position: relative;
+  background-image: radial-gradient(
+    circle at center,
+    rgba(231, 231, 231, 0.35) 20%,
+    rgba(231, 231, 231, 0.4) 15%,
+    rgba(231, 231, 231, 0.44) 40%,
+    rgba(231, 231, 231, 0.35) 40%,
+    rgba(231, 231, 231, 0.45) 65%,
+    rgba(231, 231, 231, 0.54) 65%
+  );
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.autorization-page {
+  display: flex;
+  flex-direction: column;
+  // display: block;
+  // box-sizing: border-box;
+  // align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px 100px;
+  background: #ffffff;
+  box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06);
+  border-radius: 10px;
+}
+
+.autorization-page-recovery {
+  display: flex;
+  flex-direction: column;
+  // display: block;
+  // box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  // padding: 80px 100px;
+  // background: #ffffff;
+  // box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06);
+  // border-radius: 10px;
+}
+
+.autorization-page-btn {
+  font-family: 'Exo2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: $txt-white;
+  background-color: $btn-bgr;
+  padding: 10px 63px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: $animation-transition;
+  margin-top: 40px;
+}
+
+.autorization-page-forgot {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.28px;
+  color: $txt-dark;
+  margin: 20px 0 0 0;
+}
+
+.autorization-page-text {
+  font-family: 'Exo2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.4px;
+  color: $txt-blue;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.autorization-page-text-first {
+  font-family: 'Exo2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: $txt-link;
+  margin-bottom: 40px;
+}
+.autorization-page-text-secondary {
+  font-family: 'Exo2';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.autorization-page-email {
+  width: 400px;
+  height: 40px;
+  border: 2px solid #f2f2f2;
+  border-radius: 2px;
+  margin-top: 25px;
+  padding-left: 15px;
+}
+
+.autorization-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 140px;
+}
+
+.autorization-page-submit {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.autorization-page-btn-submit {
+  display: block;
+}
+
+.autorization-header-txt {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.28px;
+  color: $txt-dark;
+}
+
+.autorization-header-link {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.28px;
+  color: $txt-link;
+  cursor: pointer;
+}
+
+.autorization-page-img {
+  // display: flex;
+  // justify-content: center;
+  margin-bottom: 30px;
+}

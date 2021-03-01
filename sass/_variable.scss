@@ -1,0 +1,29 @@
+/* background */
+$modal-bgd: #f9fafc;
+
+/* text */
+$txt-blue: #002396;
+$txt-dark: #222428;
+$txt-white: #ffffff;
+$txt-link: #2a74db;
+
+/* botton */
+$btn-bgr: #0ad69c;
+
+/* font */
+$font-main: 'Roboto', sans-serif;
+
+/* animation */
+$animation-fast: 0.1s;
+$animation-slow: 0.3s;
+
+$animation-transition: all 0.2s ease-in-out;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-main;
+  box-sizing: border-box;
+}
